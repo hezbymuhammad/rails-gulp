@@ -899,7 +899,10 @@
     "yeast": "^0.1.2"
   },
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "del": "^2.2.2",
+    "gulp": "^4.0.0",
+    "require-dir": "^0.3.2",
+    "sw-precache": "^5.2.1"
   },
   "repository": {
     "type": "git",
