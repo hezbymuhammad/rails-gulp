@@ -4,5 +4,5 @@ var config = require('../config');
 
 gulp.task('clean', function (callback) {
   sw_path = config.sw.targetDir + config.sw.target;
-  del([sw_path], done);
+  del([sw_path], callback);
 });
